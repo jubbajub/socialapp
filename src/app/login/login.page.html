@@ -4,7 +4,7 @@
   </ion-toolbar>
 </ion-header>
 
-<ion-content padding>
+<ion-content class="ion-padding">
   <ion-list>
 
     <ion-item>
@@ -22,3 +22,9 @@
 <ion-button fill="solid" expand="block" color="dark" (click)="login()">Login</ion-button>
 
 </ion-content>
+
+<ion-content class="ion-padding">
+  <a [routerLink]="['/register']">Register</a>
+</ion-content>
+  
+
